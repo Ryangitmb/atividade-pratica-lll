@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: Arial;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.menu {
+    width: 200px;
+    background: #1e3c72;
+    color: white;
+    display: flex;
+    padding: 15px;
+}
+.principal {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho {
+    background: #ff7e5f;
+    color: white;
+    padding: 20px;
+}
+
+.conteudo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.linha {
+    display: flex;
+    gap: 20px;
+}
+
+.bloco {
+    flex: 1;
+    height: 120px;
+    background: #36d1dc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.linha2 {
+    display: flex;
+    gap: 20px;
+    flex: 1;
+}
+
+.maior {
+    flex: 2;
+    background: #11998e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.menor {
+    flex: 1;
+    background: #dd2476;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
